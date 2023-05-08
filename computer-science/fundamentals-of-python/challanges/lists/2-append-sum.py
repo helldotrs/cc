@@ -1,4 +1,3 @@
-
 """
 Write a function named append_sum that has one parameter — a list named named my_list.
 
@@ -15,3 +14,5 @@ def append_sum(a):
 
 #Uncomment the line below when your function is done
 print(append_sum([1, 1, 2]))
+print(append_sum(append_sum([1, 1, 2])))
+print(append_sum(append_sum(append_sum([1, 1, 2]))))
