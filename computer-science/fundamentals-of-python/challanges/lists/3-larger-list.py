@@ -6,7 +6,6 @@ The function should return the last element of the list that contains more eleme
 #Write your function here
 
 def larger_list(a,b):
-  la, lb  = len(a), len(b)
   return a[-1] if len(a) >= len(b) else b[-1]
 
 #Uncomment the line below when your function is done
