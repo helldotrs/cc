@@ -7,10 +7,7 @@ The function should return the last element of the list that contains more eleme
 
 def larger_list(a,b):
   la, lb  = len(a), len(b)
-  if la < lb:
-   return b[-1]
-  elif la >= lb: #can just be written "else" but this is more readable
-   return a[-1]
+  return a[-1] if len(a) >= len(b) else b[-1]
 
 #Uncomment the line below when your function is done
 print(larger_list([4, 10, 2, 5], [-10, 2, 5, 10]))
