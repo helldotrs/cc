@@ -9,7 +9,7 @@ def larger_list(a,b):
   la, lb  = len(a), len(b)
   if la < lb:
    return b[-1]
-  elif la => lb: #can just be written "else" but this is more readable
+  elif la >= lb: #can just be written "else" but this is more readable
    return a[-1]
 
 #Uncomment the line below when your function is done
