@@ -5,8 +5,8 @@ The function should return the last element of the list that contains more eleme
 """
 #Write your function here
 
-def larger_list(a,b):
-  return a[-1] if len(a) >= len(b) else b[-1]
+def larger_list(my_list1,my_list2):
+  return my_list1[-1] if len(my_list1) >= len(my_list2) else my_list2[-1]
 
 #Uncomment the line below when your function is done
 print(larger_list([4, 10, 2, 5], [-10, 2, 5, 10]))
