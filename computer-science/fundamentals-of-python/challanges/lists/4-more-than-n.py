@@ -5,6 +5,9 @@ The function should return True if item appears in the list more than n times. T
 """
 #Write your function here
 
+def more_than_n(my_list, items, n):
+  pass
+
 
 #Uncomment the line below when your function is done
 #print(more_than_n([2, 4, 6, 2, 3, 2, 1, 2], 2, 3))
