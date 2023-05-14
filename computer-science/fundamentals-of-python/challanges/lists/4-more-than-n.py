@@ -5,8 +5,8 @@ The function should return True if item appears in the list more than n times. T
 """
 #Write your function here
 
-def more_than_n(my_list, items, n):
-  pass
+def more_than_n(my_list, item, n):
+  return my_list.count(item) > n
 
 
 #Uncomment the line below when your function is done
