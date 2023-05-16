@@ -20,4 +20,8 @@ print(every_three_nums(91))
 while my solution works, their solution was much neater:
 def every_three_nums(start):
   return list(range(start, 101, 3))
+  
+"ai":
+def every_three_nums(start):
+    return [i for i in range(start, 104, 3)]
 """
