@@ -5,6 +5,13 @@ The function should return a list of every third number between start and 100 (i
 """
 #Write your function here
 
+#Write your function here
+
+def every_three_nums(start):
+  output  = [start]
+  while(num <= 100):
+    output.append(output[-1]+3)
+  return output
 
 #Uncomment the line below when your function is done
-# print(every_three_nums(91))
+print(every_three_nums(91))
