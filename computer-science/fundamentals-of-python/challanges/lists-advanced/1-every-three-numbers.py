@@ -9,7 +9,7 @@ The function should return a list of every third number between start and 100 (i
 
 def every_three_nums(start):
   output  = [start]
-  while(num <= 100):
+  while(output[-1] <= 100):
     output.append(output[-1]+3)
   return output
 
