@@ -16,6 +16,7 @@ After writing your function, un-comment the call to the function that we’ve pr
 def double_index(my_list, index):
   my_list[index] = my_list[index] * 2
   return my_list
+#FIXME: I feel that I must have missed a criteria because CCs solution is hella messy.
   
 #Uncomment the line below when your function is done
 print(double_index([3, 8, -10, 12], 2))
