@@ -12,6 +12,8 @@ double_index([1, 2, 3, 4], 2)
 After writing your function, un-comment the call to the function that we’ve provided for you to test your results.
 """
 
-def double_index(mylist, index) #list, number
+#Write your function here
+def double_index(my_list, index):
 
-
+#Uncomment the line below when your function is done
+print(double_index([3, 8, -10, 12], 2))
