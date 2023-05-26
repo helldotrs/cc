@@ -10,7 +10,7 @@ def middle_element(my_list):
   if my_len % 2 == 0:
     return my_list[my_len/2]
   else:
-    return my_list[my_len/2]
+    pass
 
 
 #Uncomment the line below when your function is done
