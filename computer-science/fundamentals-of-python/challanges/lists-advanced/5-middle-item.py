@@ -5,6 +5,8 @@ If there are an odd number of elements in my_list, the function should return th
 """
 
 #Write your function here
+def middle_element(my_list):
+  
 
 
 #Uncomment the line below when your function is done
