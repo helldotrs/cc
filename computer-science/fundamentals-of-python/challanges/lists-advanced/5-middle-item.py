@@ -14,6 +14,6 @@ def middle_element(my_list):
 
 
 #Uncomment the line below when your function is done
-print(middle_element(10, 20, 30))
-print(middle_element(10, 20, 30, 40))
+print(middle_element([10, 20, 30]))
+print(middle_element([10, 20, 30, 40]))
 #print(middle_element([5, 2, -10, -4, 4, 5]))
