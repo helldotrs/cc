@@ -8,9 +8,9 @@ If there are an odd number of elements in my_list, the function should return th
 def middle_element(my_list):
   my_len = len(my_list)
   if my_len % 2 == 0:
-    return my_list[my_len/2]
+    pass # return my_list[my_len/2]
   else:
-    pass
+    return my_list[my_len/2]
 
 
 #Uncomment the line below when your function is done
