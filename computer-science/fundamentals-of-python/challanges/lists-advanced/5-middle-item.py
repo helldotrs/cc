@@ -5,15 +5,6 @@ If there are an odd number of elements in my_list, the function should return th
 """
 
 #Write your function here
-"""
-def middle_element(my_list):
-  my_len  = int(len(my_list))
-  my_half = int(my_len/2)
-  if my_len % 2 == 0:
-    return (my_list[my_half] + my_list[my_half + 1]) / 2 
-  else:
-    return my_list[my_half]
-"""
 def middle_element(my_list):
   len_var = len(my_list)
   return len_var
