@@ -6,8 +6,12 @@ If there are an odd number of elements in my_list, the function should return th
 
 #Write your function here
 def middle_element(my_list):
-  len_var = len(my_list)
-  return len_var
+  len_var   = len(my_list)
+  len_half  = int(len(my_list)/2)
+  #return len_var
+  if not (len_var % 2 == 0):
+    #!() to get least complex first
+    return my_list[len_half]
 
 #Uncomment the line below when your function is done
 print(middle_element([10, 20, 30]))
