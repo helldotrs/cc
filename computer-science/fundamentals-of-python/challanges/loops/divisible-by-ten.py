@@ -3,7 +3,7 @@
 def divisible_by_ten(in_list):
   count = 0
   for a in in_list:
-    if not 10 % 0 == 0:
+    if a % 10 == 0:
       count += 1
   return count
 
