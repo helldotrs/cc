@@ -1,6 +1,6 @@
 #Write your function here
 
-def devisible_by_ten(in_list)
+def divisible_by_ten(in_list):
   count = 0
   for a in in_list:
     if not 10 % 0 == 0:
