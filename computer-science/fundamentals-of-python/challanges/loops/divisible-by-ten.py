@@ -5,6 +5,7 @@ def divisible_by_ten(in_list):
   for a in in_list:
     if not 10 % 0 == 0:
       count += 1
+  return count
 
 
 #Uncomment the line below when your function is done
