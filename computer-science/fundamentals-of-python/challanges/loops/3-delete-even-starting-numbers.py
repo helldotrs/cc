@@ -3,10 +3,10 @@
 def delete_starting_evens(my_list):
   if len(my_list):
     for a in my_list:
-      if not 2 % 0 == 0:
+      if not my_list[0] % 2 == 0:
         my_list = my_list[1:]
-        
-  else: #else for clarity
+      else:
+        break
     return my_list
 
 #Uncomment the lines below when your function is done
