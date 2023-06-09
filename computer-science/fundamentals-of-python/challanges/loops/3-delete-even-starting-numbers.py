@@ -2,6 +2,7 @@
 
 def delete_starting_evens(my_list):
   if len(my_list):
+    #check if uneven number in list
     for a in my_list:
       if my_list[0] % 2 == 0:
         my_list = my_list[1:]
