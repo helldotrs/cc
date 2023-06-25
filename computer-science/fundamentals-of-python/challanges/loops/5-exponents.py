@@ -17,6 +17,11 @@ def exponents(bases,powers):
 # not mine, but cool af code -->
 #exponents = lambda bases, powers: [bases[a] ** powers[b] for a in range(len(bases)) for b in range(len(powers))]
 
+""" and this:
+def exponents(bases, powers):
+    return [bases[a] ** powers[b] for a in range(len(bases)) for b in range(len(powers))]
+"""
+
 
 #Uncomment the line below when your function is done
 print(exponents([2, 3, 4], [1, 2, 3]))
