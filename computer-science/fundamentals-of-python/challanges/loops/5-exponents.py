@@ -14,6 +14,9 @@ def exponents(bases,powers):
       expo.append(bases[a] ** powers[b])
   return expo
 
+# not mine, but cool af code -->
+#exponents = lambda bases, powers: [bases[a] ** powers[b] for a in range(len(bases)) for b in range(len(powers))]
+
 
 #Uncomment the line below when your function is done
-#print(exponents([2, 3, 4], [1, 2, 3]))
+print(exponents([2, 3, 4], [1, 2, 3]))
