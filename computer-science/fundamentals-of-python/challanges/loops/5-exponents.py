@@ -1,6 +1,6 @@
 #Write your function here
 
-def expontents(bases,powers):
+def exponents(bases,powers):
   expo = []
   for a in range(0, len(bases)):
     expo.append(bases[a] ** powers[a])
