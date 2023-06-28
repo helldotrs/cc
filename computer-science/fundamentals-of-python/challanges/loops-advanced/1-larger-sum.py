@@ -3,10 +3,10 @@
 def larger_sum(a,b):
   sum_a = 0
   sum_b = 0
-  for items in a:
-    sum_a += a
-  for items in b:
-    sum_b += b
+  for item in a:
+    sum_a += item
+  for item in b:
+    sum_b += item
   if sum_a < sum_b:
     return sum_b
   else:
