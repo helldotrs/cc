@@ -12,5 +12,7 @@ def larger_sum(a,b):
   else:
     return sum_a
 
+# exact same solution as CC but with different names lmao
+
 #Uncomment the line below when your function is done
 print(larger_sum([1, 9, 5], [2, 3, 7]))
