@@ -1,6 +1,6 @@
 #Write your function here
 
-def over_nine_thousand[a]:
+def over_nine_thousand(a):
   sum = 0
   for b in a:
     if sum > 9000:
