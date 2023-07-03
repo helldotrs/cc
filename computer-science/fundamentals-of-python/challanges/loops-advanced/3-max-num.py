@@ -1,7 +1,7 @@
 #Write your function here
 
 def max_num(list):
-  max = 0;
+  max = 0
   for item in list:
     if item > max:
       max = item
