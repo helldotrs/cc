@@ -1,7 +1,6 @@
 #Write your function here
 
 def same_values(a,b):
-  pass
   output  = []
   for i in range(len(a)):
     if a[i] == b[i]:
