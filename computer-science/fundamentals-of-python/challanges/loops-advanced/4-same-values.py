@@ -3,7 +3,7 @@
 def same_values(a,b):
   pass
   output  = []
-  for i in a:
+  for i in range(len(a)):
     if a[i] == b[i]:
       output.append[i]
   return output
