@@ -4,7 +4,7 @@ def same_values(a,b):
   output  = []
   for i in range(len(a)):
     if a[i] == b[i]:
-      output.append[i]
+      output.append(i)
   return output
 
 #Uncomment the line below when your function is done
