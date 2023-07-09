@@ -1,6 +1,11 @@
 #Write your function here
 
 def reversed_list(a,b):
+  for i in range(len(a)):
+    if a(i) != b(-i):
+    return False
+  return True
+    
   
 
 #Uncomment the lines below when your function is done
