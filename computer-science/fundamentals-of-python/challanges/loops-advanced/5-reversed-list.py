@@ -2,7 +2,7 @@
 
 def reversed_list(a,b):
   for i in range(len(a)):
-    if a(i) != b((len(a)-i):
+    if a(i) != b((len(a)-i)):
     return False
   return True
     
