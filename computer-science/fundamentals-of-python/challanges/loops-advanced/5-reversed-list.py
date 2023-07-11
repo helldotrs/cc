@@ -1,10 +1,12 @@
 #Write your function here
 
 def reversed_list(a,b):
-  for i in range(len(a)):
-    if a(i) != b((len(a)-i)):
-    return False
+  b = b[::-1]
+  for x in range(len(a)):
+    if a[x] != b[x]:
+      return False
   return True
+      
     
   
 
