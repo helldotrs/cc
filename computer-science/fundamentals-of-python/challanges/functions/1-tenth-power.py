@@ -1,9 +1,9 @@
 # Write your tenth_power function here:
 
 def tenth_power(a):
-  for _ in range(10):
-    a *= a
-  return a
+  return a ** 10
+
+
 
 # Uncomment these function calls to test your tenth_power function:
 print(tenth_power(1))
