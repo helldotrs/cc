@@ -1,7 +1,7 @@
 # Write your win_percentage function here:
 
 def win_percentage(wins, losses):
-  return (wins / (wins + losses)) * 100
+  return int((wins / (wins + losses)) * 100)
   
 
 # Uncomment these function calls to test your win_percentage function:
