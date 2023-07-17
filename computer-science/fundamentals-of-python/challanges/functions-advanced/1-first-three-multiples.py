@@ -8,6 +8,11 @@ For example, first_three_multiples(7) should print 7, 14, and 21 on three differ
 
 # Write your first_three_multiples function here
 
+def first_three_multiples(a):
+ for b in range(3):
+  print(str(a*b)
+ return a * 3
+
 
 # Uncomment these function calls to test your first_three_multiples function:
 #first_three_multiples(10)
