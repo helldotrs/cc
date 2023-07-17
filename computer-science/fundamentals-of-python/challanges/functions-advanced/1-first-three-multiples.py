@@ -13,6 +13,13 @@ def first_three_multiples(a):
     print(str(a*b))
   return a * 3
 
+#CCs solution was hardcoded............:
+def first_three_multiples(num):
+  print(num)
+  print(num * 2)
+  print(num * 3)
+  return num * 3
+
 
 # Uncomment these function calls to test your first_three_multiples function:
 first_three_multiples(10)
