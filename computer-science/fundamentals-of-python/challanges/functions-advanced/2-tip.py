@@ -1,7 +1,7 @@
 # Write your tip function here:
 
-def tip(a,b):
-  return a += a * (b/100)
+def total(a,b):
+  return a + (a * (b/100))
   
 # Uncomment these function calls to test your tip function:
 print(tip(10, 25))
