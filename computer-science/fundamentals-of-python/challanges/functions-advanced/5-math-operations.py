@@ -12,9 +12,9 @@ def lots_of_math(a,b,c,d):
   e = a+b
   f = c-d
   g = e*f
-  print e
-  print f
-  print g
+  print(e)
+  print(f)
+  print(g)
   return g % a
   
 
