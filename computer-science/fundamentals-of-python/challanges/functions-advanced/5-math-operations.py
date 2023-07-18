@@ -8,6 +8,16 @@ Third, print the first number printed, multiplied by the second number printed.
 Finally, return the third number printed modulo a.
 """
 
+def lots_of_math(a,b,c,d):
+  e = a+b
+  f = c-d
+  g = e*f
+  print e
+  print f
+  print g
+  return g % a
+  
+
 # Write your lots_of_math function here:
 
 # Uncomment these function calls to test your lots_of_math function:
