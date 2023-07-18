@@ -2,6 +2,9 @@
 
 def total(a,b):
   return a + (a * (b/100))
+
+def tip(a,b):
+  return a * (b/100)
   
 # Uncomment these function calls to test your tip function:
 print(tip(10, 25))
